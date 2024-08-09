@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(196, 87, 87);
+    color: rgb(71, 69, 69)
+  }
+  
+  
+  body {
+    font-family: Monospace;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div {
+    box-shadow: 4px 4px 10px rgba(255, 0, 0, 0.45);
+    padding: 0.7rem;
+    margin-top: 1rem;
+    max-width: 25rem;
+    width: 25rem; background-color: rgb(231, 172, 172);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  div span {
+    font-size: 2rem;
+    color: rgb(71, 69, 69)
+  }
+  
+  div:has(span) {
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  input {
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: rgb(231, 231, 132);
+    border-radius: 10px;
+    font-family: inherit;
+  }
